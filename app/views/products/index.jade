@@ -1,0 +1,16 @@
+extends ../shared/template
+block content
+  table#products.table.table-bordered
+    thead
+      tr
+        th Product
+        th Image
+        th Price
+    tbody
+      each product in products
+        tr
+          td= product.name
+          td(style='background-image:url("#{product.photo}")')
+          td $#{product.price.toFixed(2)}
+
+block scripts

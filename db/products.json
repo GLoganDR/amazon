@@ -1,0 +1,20 @@
+{
+  "_id" : {"$oid":"100000000000000000000001"},
+  "name": "iPad",
+  "price": 499,
+  "photo":"https://www.apple.com/support/assets/images/products/ipad/hero_ipadair_ipad_2013.png"
+},
+
+{
+  "_id" : {"$oid":"100000000000000000000002"},
+  "name": "iPhone",
+  "price": 299,
+  "photo":"http://cnet3.cbsistatic.com/hub/i/r/2012/09/17/314619ad-8bb7-11e3-a24e-d4ae52e62bcc/thumbnail/770x433/5e6f2e060dba9e86fe53e67e3f31d36d/06_archimedes_35438535.jpg"
+},
+
+{
+  "_id" : {"$oid":"100000000000000000000003"},
+  "name": "iMac",
+  "price": 2000,
+  "photo":"http://g-ecx.images-amazon.com/images/G/01/electronics/apple/apple-13q3-imac-21-side-lg.jpg"
+}
