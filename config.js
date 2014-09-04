@@ -26,4 +26,9 @@ config.facebook = {
   callbackURL  : 'http://loganvm.com:3334/auth/facebook/callback'
 };
 
+config.stripe = {
+  publishKey : 'pk_test_KQUFelKtQf1ncNDKEvtY9ICl',
+  secretKey : process.env.STRIPE_SECRET
+};
+
 module.exports = config;

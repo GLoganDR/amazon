@@ -11,7 +11,7 @@ Object.defineProperty(Product, 'collection', {
 
 Product.findById = function(id, cb){
   var _id = Mongo.ObjectID(id);
-  Product.findOne({_id:_id}, cb);
+  Product.collection.findOne({_id:_id}, cb);
 };
 
 Product.all = function(cb){
